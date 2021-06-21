@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Teams!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1 class="jumbotron">Team Rosters</h1>
+    <div>
+      <ul style="list-style: none;">
+
+          {% for name in list %}
+          <li>{{ name }}</li>
+          {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+</body>
+
+<!-- Uncomment below for dictionary -->
+<!-- <body>
+  <div class="container text-center">
+    <h1 class="jumbotron">Player Roster</h1>
+    <div>
+      <ul style="list-style: none;">
+        <li>{{ dict.player_1 }}</li>
+        <li>{{ dict.player_2 }}</li>
+      </ul>
+    </div>
+  </div>
+</body> -->
+
+
+</html>
