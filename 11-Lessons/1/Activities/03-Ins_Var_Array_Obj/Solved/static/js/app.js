@@ -36,7 +36,7 @@ let cityObject = {
     inCalifornia: true
 };
 console.log(cityObject);
-let location1 = [37.77, -122.43];
+var location1 = [37.77, -122.43];
 
 // Example Oject from Variables
 let cityObject2 = {

@@ -1,0 +1,1 @@
+console.log("Hello World of JS from outside of the html.");
